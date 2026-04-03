@@ -2,12 +2,12 @@
     "version": 2,
     "rewrites": [
       {
-        "source": "/api/(.*)",
-        "destination": "/api/index"
+        "source": "api/index.php",
+        "destination": "api/index.php"
       },
       {
         "source": "/(.*)",
-        "destination": "/api/index"
+        "destination": "api/index.php"
       }
     ]
   }
